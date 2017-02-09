@@ -36,7 +36,7 @@
             var additive = Math.round(childCount / r / 10);
             var s = clusterIconSize + additive;
             var html = '<div style="width:100%;margin-top: 10px;width:' + s * 2/3 + 'px;height:' + s + 'px;" id="imgs1" class="fluid">' +
-                   '<div style="margin-top:10px;float:left;width:' + s * 2/3 + 'px;height:' + s + 'px;" class="fluid img1"><img src="fermenter_color.png" alt="" width="' + s * 2/3 + '" height="' + s + '">' +
+                   '<div style="margin-top:10px;float:left;width:' + s * 2/3 + 'px;height:' + s + 'px;" class="fluid img1"><img src="https://cloud.githubusercontent.com/assets/5361725/22738769/c989cf08-edd6-11e6-8279-2626d7462e35.png" alt="" width="' + s * 2/3 + '" height="' + s + '">' +
                    '<p style="font-size:' + Math.round(s/50).toString() + '%;color:#FFEC8B;text-shadow: 1px 1px 0px b2222f94;text-align:center;font-size:22px;margin-top:-167%;">' + childCount.toString() + '</p></div>'
             return new L.DivIcon({ html: html, iconSize: new L.Point(0, 0) });
        },
@@ -46,7 +46,7 @@
     });
     var myIcon = L.icon({
             // iconUrl:'https://d30y9cdsu7xlg0.cloudfront.net/png/74412-200.png', 
-            iconUrl: 'fermenter_color.png',
+            iconUrl: 'https://cloud.githubusercontent.com/assets/5361725/22738769/c989cf08-edd6-11e6-8279-2626d7462e35.png',
             iconSize: [40 * 2/3,40]
                  });
     var url = "brewery/locations.geojson";
@@ -60,7 +60,7 @@
               var name = feature.properties.name;
               } 
             html = '<div style="width:100%;margin-top: 10px;width:' + s * 2/3 + 'px;height:' + s + 'px;" id="imgs1" class="fluid">' +
-                   '<div style="margin-top:10px;float:left;width:' + s * 2/3 + 'px;height:' + s + 'px;" class="fluid img1"><img src="fermenter_color.png" alt="" width="' + s * 2/3 + '" height="' + s + '">' +
+                   '<div style="margin-top:10px;float:left;width:' + s * 2/3 + 'px;height:' + s + 'px;" class="fluid img1"><img src="https://cloud.githubusercontent.com/assets/5361725/22738769/c989cf08-edd6-11e6-8279-2626d7462e35.png" alt="" width="' + s * 2/3 + '" height="' + s + '">' +
                    '<p style="font-size:' + Math.round(s/50).toString() + '%;color:#B22222;text-shadow: 1px 1px 0px b2222f94;text-align:center;font-size:10px;margin-top:0%;">' + name + '</p></div>'
             var divIcon = new L.DivIcon({ html: html, iconSize: new L.Point(0,0) });
             markers.addLayers([L.marker(latlng,{icon:divIcon})]);
