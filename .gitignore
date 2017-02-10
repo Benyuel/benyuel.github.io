@@ -12,3 +12,5 @@ brewery/__pycache__/geoluigi.cpython-34.pyc
 brewery/beer_breweries.csv
 
 brewery/beer.py
+
+brewery/woodcut/*

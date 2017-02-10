@@ -1,0 +1,889 @@
+key,value,date
+Brown Porter,1.0,1980
+Brown Porter,1.0,1981
+Brown Porter,1.0,1982
+Brown Porter,3.0,1983
+Brown Porter,15.0,1984
+Brown Porter,8.0,1985
+Brown Porter,12.0,1986
+Brown Porter,9.0,1987
+Brown Porter,11.0,1988
+Brown Porter,15.0,1989
+Brown Porter,12.0,1990
+Brown Porter,5.0,1991
+Brown Porter,13.0,1992
+Brown Porter,21.0,1993
+Brown Porter,40.0,1994
+Brown Porter,38.0,1995
+Brown Porter,44.0,1996
+Brown Porter,44.0,1997
+Brown Porter,14.0,1998
+Brown Porter,14.0,1999
+Brown Porter,14.0,2000
+Brown Porter,11.0,2001
+Brown Porter,10.0,2002
+Brown Porter,6.0,2003
+Brown Porter,9.0,2004
+Brown Porter,17.0,2005
+Brown Porter,27.0,2006
+Brown Porter,26.0,2007
+Brown Porter,33.0,2008
+Brown Porter,46.0,2009
+Brown Porter,92.0,2010
+Brown Porter,80.0,2011
+Brown Porter,113.0,2012
+Brown Porter,97.0,2013
+Brown Porter,56.0,2014
+Brown Porter,33.0,2015
+Brown Porter,1.0,2016
+Hefeweizen,1.0,1980
+Hefeweizen,1.0,1981
+Hefeweizen,0.0,1982
+Hefeweizen,1.0,1983
+Hefeweizen,9.0,1984
+Hefeweizen,3.0,1985
+Hefeweizen,14.0,1986
+Hefeweizen,11.0,1987
+Hefeweizen,10.0,1988
+Hefeweizen,14.0,1989
+Hefeweizen,7.0,1990
+Hefeweizen,4.0,1991
+Hefeweizen,6.0,1992
+Hefeweizen,20.0,1993
+Hefeweizen,22.0,1994
+Hefeweizen,19.0,1995
+Hefeweizen,28.0,1996
+Hefeweizen,31.0,1997
+Hefeweizen,10.0,1998
+Hefeweizen,15.0,1999
+Hefeweizen,8.0,2000
+Hefeweizen,12.0,2001
+Hefeweizen,6.0,2002
+Hefeweizen,7.0,2003
+Hefeweizen,13.0,2004
+Hefeweizen,9.0,2005
+Hefeweizen,20.0,2006
+Hefeweizen,18.0,2007
+Hefeweizen,23.0,2008
+Hefeweizen,28.0,2009
+Hefeweizen,59.0,2010
+Hefeweizen,62.0,2011
+Hefeweizen,69.0,2012
+Hefeweizen,40.0,2013
+Hefeweizen,38.0,2014
+Hefeweizen,20.0,2015
+Hefeweizen,5.0,2016
+Amber,2.0,1980
+Amber,3.0,1981
+Amber,0.0,1982
+Amber,5.0,1983
+Amber,18.0,1984
+Amber,6.0,1985
+Amber,18.0,1986
+Amber,22.0,1987
+Amber,22.0,1988
+Amber,22.0,1989
+Amber,16.0,1990
+Amber,11.0,1991
+Amber,13.0,1992
+Amber,19.0,1993
+Amber,40.0,1994
+Amber,59.0,1995
+Amber,58.0,1996
+Amber,49.0,1997
+Amber,29.0,1998
+Amber,18.0,1999
+Amber,17.0,2000
+Amber,13.0,2001
+Amber,18.0,2002
+Amber,22.0,2003
+Amber,33.0,2004
+Amber,24.0,2005
+Amber,40.0,2006
+Amber,27.0,2007
+Amber,43.0,2008
+Amber,72.0,2009
+Amber,78.0,2010
+Amber,135.0,2011
+Amber,143.0,2012
+Amber,131.0,2013
+Amber,82.0,2014
+Amber,33.0,2015
+Amber,5.0,2016
+Belgian Tripel,2.0,1980
+Belgian Tripel,1.0,1981
+Belgian Tripel,2.0,1982
+Belgian Tripel,2.0,1983
+Belgian Tripel,2.0,1984
+Belgian Tripel,6.0,1985
+Belgian Tripel,2.0,1986
+Belgian Tripel,3.0,1987
+Belgian Tripel,7.0,1988
+Belgian Tripel,15.0,1989
+Belgian Tripel,11.0,1990
+Belgian Tripel,0.0,1991
+Belgian Tripel,1.0,1992
+Belgian Tripel,10.0,1993
+Belgian Tripel,15.0,1994
+Belgian Tripel,27.0,1995
+Belgian Tripel,23.0,1996
+Belgian Tripel,15.0,1997
+Belgian Tripel,15.0,1998
+Belgian Tripel,7.0,1999
+Belgian Tripel,9.0,2000
+Belgian Tripel,4.0,2001
+Belgian Tripel,6.0,2002
+Belgian Tripel,2.0,2003
+Belgian Tripel,9.0,2004
+Belgian Tripel,16.0,2005
+Belgian Tripel,12.0,2006
+Belgian Tripel,13.0,2007
+Belgian Tripel,25.0,2008
+Belgian Tripel,21.0,2009
+Belgian Tripel,42.0,2010
+Belgian Tripel,60.0,2011
+Belgian Tripel,54.0,2012
+Belgian Tripel,49.0,2013
+Belgian Tripel,25.0,2014
+Belgian Tripel,13.0,2015
+Belgian Tripel,1.0,2016
+American Lager,3.0,1980
+American Lager,0.0,1981
+American Lager,0.0,1982
+American Lager,2.0,1983
+American Lager,11.0,1984
+American Lager,3.0,1985
+American Lager,10.0,1986
+American Lager,5.0,1987
+American Lager,2.0,1988
+American Lager,13.0,1989
+American Lager,2.0,1990
+American Lager,6.0,1991
+American Lager,2.0,1992
+American Lager,6.0,1993
+American Lager,10.0,1994
+American Lager,14.0,1995
+American Lager,26.0,1996
+American Lager,19.0,1997
+American Lager,4.0,1998
+American Lager,3.0,1999
+American Lager,8.0,2000
+American Lager,6.0,2001
+American Lager,5.0,2002
+American Lager,5.0,2003
+American Lager,15.0,2004
+American Lager,5.0,2005
+American Lager,15.0,2006
+American Lager,12.0,2007
+American Lager,25.0,2008
+American Lager,22.0,2009
+American Lager,32.0,2010
+American Lager,56.0,2011
+American Lager,40.0,2012
+American Lager,33.0,2013
+American Lager,32.0,2014
+American Lager,11.0,2015
+American Lager,3.0,2016
+Witbier,0.0,1980
+Witbier,2.0,1981
+Witbier,2.0,1982
+Witbier,1.0,1983
+Witbier,6.0,1984
+Witbier,3.0,1985
+Witbier,8.0,1986
+Witbier,1.0,1987
+Witbier,3.0,1988
+Witbier,9.0,1989
+Witbier,5.0,1990
+Witbier,1.0,1991
+Witbier,5.0,1992
+Witbier,7.0,1993
+Witbier,18.0,1994
+Witbier,27.0,1995
+Witbier,38.0,1996
+Witbier,23.0,1997
+Witbier,16.0,1998
+Witbier,11.0,1999
+Witbier,3.0,2000
+Witbier,4.0,2001
+Witbier,8.0,2002
+Witbier,6.0,2003
+Witbier,18.0,2004
+Witbier,16.0,2005
+Witbier,17.0,2006
+Witbier,16.0,2007
+Witbier,20.0,2008
+Witbier,32.0,2009
+Witbier,73.0,2010
+Witbier,72.0,2011
+Witbier,82.0,2012
+Witbier,55.0,2013
+Witbier,44.0,2014
+Witbier,26.0,2015
+Witbier,4.0,2016
+Kölsch,1.0,1980
+Kölsch,0.0,1981
+Kölsch,0.0,1982
+Kölsch,2.0,1983
+Kölsch,4.0,1984
+Kölsch,3.0,1985
+Kölsch,6.0,1986
+Kölsch,4.0,1987
+Kölsch,2.0,1988
+Kölsch,10.0,1989
+Kölsch,1.0,1990
+Kölsch,1.0,1991
+Kölsch,4.0,1992
+Kölsch,4.0,1993
+Kölsch,22.0,1994
+Kölsch,15.0,1995
+Kölsch,22.0,1996
+Kölsch,12.0,1997
+Kölsch,12.0,1998
+Kölsch,6.0,1999
+Kölsch,8.0,2000
+Kölsch,5.0,2001
+Kölsch,2.0,2002
+Kölsch,2.0,2003
+Kölsch,5.0,2004
+Kölsch,6.0,2005
+Kölsch,8.0,2006
+Kölsch,13.0,2007
+Kölsch,8.0,2008
+Kölsch,17.0,2009
+Kölsch,38.0,2010
+Kölsch,47.0,2011
+Kölsch,48.0,2012
+Kölsch,37.0,2013
+Kölsch,31.0,2014
+Kölsch,32.0,2015
+Kölsch,7.0,2016
+Oatmeal Stout,2.0,1980
+Oatmeal Stout,0.0,1981
+Oatmeal Stout,0.0,1982
+Oatmeal Stout,3.0,1983
+Oatmeal Stout,1.0,1984
+Oatmeal Stout,2.0,1985
+Oatmeal Stout,5.0,1986
+Oatmeal Stout,5.0,1987
+Oatmeal Stout,7.0,1988
+Oatmeal Stout,11.0,1989
+Oatmeal Stout,3.0,1990
+Oatmeal Stout,4.0,1991
+Oatmeal Stout,5.0,1992
+Oatmeal Stout,8.0,1993
+Oatmeal Stout,9.0,1994
+Oatmeal Stout,19.0,1995
+Oatmeal Stout,28.0,1996
+Oatmeal Stout,22.0,1997
+Oatmeal Stout,9.0,1998
+Oatmeal Stout,10.0,1999
+Oatmeal Stout,2.0,2000
+Oatmeal Stout,3.0,2001
+Oatmeal Stout,4.0,2002
+Oatmeal Stout,2.0,2003
+Oatmeal Stout,8.0,2004
+Oatmeal Stout,5.0,2005
+Oatmeal Stout,18.0,2006
+Oatmeal Stout,29.0,2007
+Oatmeal Stout,26.0,2008
+Oatmeal Stout,19.0,2009
+Oatmeal Stout,24.0,2010
+Oatmeal Stout,40.0,2011
+Oatmeal Stout,44.0,2012
+Oatmeal Stout,45.0,2013
+Oatmeal Stout,35.0,2014
+Oatmeal Stout,9.0,2015
+Oatmeal Stout,1.0,2016
+Imperial Red,3.0,1980
+Imperial Red,1.0,1981
+Imperial Red,0.0,1982
+Imperial Red,0.0,1983
+Imperial Red,2.0,1984
+Imperial Red,4.0,1985
+Imperial Red,3.0,1986
+Imperial Red,3.0,1987
+Imperial Red,7.0,1988
+Imperial Red,3.0,1989
+Imperial Red,0.0,1990
+Imperial Red,1.0,1991
+Imperial Red,2.0,1992
+Imperial Red,2.0,1993
+Imperial Red,5.0,1994
+Imperial Red,6.0,1995
+Imperial Red,8.0,1996
+Imperial Red,9.0,1997
+Imperial Red,3.0,1998
+Imperial Red,1.0,1999
+Imperial Red,7.0,2000
+Imperial Red,1.0,2001
+Imperial Red,1.0,2002
+Imperial Red,1.0,2003
+Imperial Red,4.0,2004
+Imperial Red,1.0,2005
+Imperial Red,12.0,2006
+Imperial Red,7.0,2007
+Imperial Red,14.0,2008
+Imperial Red,13.0,2009
+Imperial Red,18.0,2010
+Imperial Red,33.0,2011
+Imperial Red,33.0,2012
+Imperial Red,22.0,2013
+Imperial Red,12.0,2014
+Imperial Red,9.0,2015
+Imperial Red,1.0,2016
+Spice Beer,0.0,1980
+Spice Beer,1.0,1981
+Spice Beer,0.0,1982
+Spice Beer,2.0,1983
+Spice Beer,9.0,1984
+Spice Beer,1.0,1985
+Spice Beer,12.0,1986
+Spice Beer,6.0,1987
+Spice Beer,15.0,1988
+Spice Beer,17.0,1989
+Spice Beer,11.0,1990
+Spice Beer,1.0,1991
+Spice Beer,5.0,1992
+Spice Beer,12.0,1993
+Spice Beer,33.0,1994
+Spice Beer,52.0,1995
+Spice Beer,25.0,1996
+Spice Beer,20.0,1997
+Spice Beer,9.0,1998
+Spice Beer,9.0,1999
+Spice Beer,5.0,2000
+Spice Beer,7.0,2001
+Spice Beer,9.0,2002
+Spice Beer,2.0,2003
+Spice Beer,16.0,2004
+Spice Beer,10.0,2005
+Spice Beer,24.0,2006
+Spice Beer,16.0,2007
+Spice Beer,28.0,2008
+Spice Beer,33.0,2009
+Spice Beer,50.0,2010
+Spice Beer,72.0,2011
+Spice Beer,63.0,2012
+Spice Beer,33.0,2013
+Spice Beer,25.0,2014
+Spice Beer,6.0,2015
+Spice Beer,1.0,2016
+Belgian Dubbel,1.0,1980
+Belgian Dubbel,0.0,1981
+Belgian Dubbel,1.0,1982
+Belgian Dubbel,1.0,1983
+Belgian Dubbel,1.0,1984
+Belgian Dubbel,2.0,1985
+Belgian Dubbel,1.0,1986
+Belgian Dubbel,1.0,1987
+Belgian Dubbel,6.0,1988
+Belgian Dubbel,4.0,1989
+Belgian Dubbel,1.0,1990
+Belgian Dubbel,0.0,1991
+Belgian Dubbel,1.0,1992
+Belgian Dubbel,1.0,1993
+Belgian Dubbel,10.0,1994
+Belgian Dubbel,11.0,1995
+Belgian Dubbel,10.0,1996
+Belgian Dubbel,9.0,1997
+Belgian Dubbel,4.0,1998
+Belgian Dubbel,5.0,1999
+Belgian Dubbel,1.0,2000
+Belgian Dubbel,3.0,2001
+Belgian Dubbel,3.0,2002
+Belgian Dubbel,1.0,2003
+Belgian Dubbel,2.0,2004
+Belgian Dubbel,7.0,2005
+Belgian Dubbel,6.0,2006
+Belgian Dubbel,9.0,2007
+Belgian Dubbel,12.0,2008
+Belgian Dubbel,13.0,2009
+Belgian Dubbel,31.0,2010
+Belgian Dubbel,37.0,2011
+Belgian Dubbel,28.0,2012
+Belgian Dubbel,28.0,2013
+Belgian Dubbel,22.0,2014
+Belgian Dubbel,5.0,2015
+Belgian Dubbel,3.0,2016
+German Pilsener,0.0,1980
+German Pilsener,0.0,1981
+German Pilsener,0.0,1982
+German Pilsener,1.0,1983
+German Pilsener,3.0,1984
+German Pilsener,3.0,1985
+German Pilsener,5.0,1986
+German Pilsener,3.0,1987
+German Pilsener,8.0,1988
+German Pilsener,7.0,1989
+German Pilsener,1.0,1990
+German Pilsener,3.0,1991
+German Pilsener,1.0,1992
+German Pilsener,9.0,1993
+German Pilsener,8.0,1994
+German Pilsener,17.0,1995
+German Pilsener,20.0,1996
+German Pilsener,19.0,1997
+German Pilsener,6.0,1998
+German Pilsener,7.0,1999
+German Pilsener,4.0,2000
+German Pilsener,4.0,2001
+German Pilsener,6.0,2002
+German Pilsener,5.0,2003
+German Pilsener,7.0,2004
+German Pilsener,5.0,2005
+German Pilsener,9.0,2006
+German Pilsener,15.0,2007
+German Pilsener,11.0,2008
+German Pilsener,16.0,2009
+German Pilsener,23.0,2010
+German Pilsener,18.0,2011
+German Pilsener,24.0,2012
+German Pilsener,11.0,2013
+German Pilsener,12.0,2014
+German Pilsener,7.0,2015
+German Pilsener,1.0,2016
+Wheat Ale,3.0,1980
+Wheat Ale,0.0,1981
+Wheat Ale,0.0,1982
+Wheat Ale,0.0,1983
+Wheat Ale,12.0,1984
+Wheat Ale,7.0,1985
+Wheat Ale,11.0,1986
+Wheat Ale,11.0,1987
+Wheat Ale,8.0,1988
+Wheat Ale,17.0,1989
+Wheat Ale,11.0,1990
+Wheat Ale,5.0,1991
+Wheat Ale,11.0,1992
+Wheat Ale,14.0,1993
+Wheat Ale,31.0,1994
+Wheat Ale,38.0,1995
+Wheat Ale,32.0,1996
+Wheat Ale,34.0,1997
+Wheat Ale,17.0,1998
+Wheat Ale,6.0,1999
+Wheat Ale,9.0,2000
+Wheat Ale,3.0,2001
+Wheat Ale,13.0,2002
+Wheat Ale,6.0,2003
+Wheat Ale,13.0,2004
+Wheat Ale,16.0,2005
+Wheat Ale,26.0,2006
+Wheat Ale,17.0,2007
+Wheat Ale,28.0,2008
+Wheat Ale,37.0,2009
+Wheat Ale,56.0,2010
+Wheat Ale,71.0,2011
+Wheat Ale,61.0,2012
+Wheat Ale,65.0,2013
+Wheat Ale,53.0,2014
+Wheat Ale,20.0,2015
+Wheat Ale,7.0,2016
+Belgian Blonde,3.0,1980
+Belgian Blonde,0.0,1981
+Belgian Blonde,1.0,1982
+Belgian Blonde,1.0,1983
+Belgian Blonde,2.0,1984
+Belgian Blonde,3.0,1985
+Belgian Blonde,4.0,1986
+Belgian Blonde,5.0,1987
+Belgian Blonde,1.0,1988
+Belgian Blonde,5.0,1989
+Belgian Blonde,4.0,1990
+Belgian Blonde,3.0,1991
+Belgian Blonde,1.0,1992
+Belgian Blonde,6.0,1993
+Belgian Blonde,11.0,1994
+Belgian Blonde,11.0,1995
+Belgian Blonde,10.0,1996
+Belgian Blonde,16.0,1997
+Belgian Blonde,7.0,1998
+Belgian Blonde,3.0,1999
+Belgian Blonde,4.0,2000
+Belgian Blonde,0.0,2001
+Belgian Blonde,3.0,2002
+Belgian Blonde,3.0,2003
+Belgian Blonde,5.0,2004
+Belgian Blonde,2.0,2005
+Belgian Blonde,11.0,2006
+Belgian Blonde,8.0,2007
+Belgian Blonde,15.0,2008
+Belgian Blonde,13.0,2009
+Belgian Blonde,19.0,2010
+Belgian Blonde,50.0,2011
+Belgian Blonde,33.0,2012
+Belgian Blonde,26.0,2013
+Belgian Blonde,15.0,2014
+Belgian Blonde,18.0,2015
+Belgian Blonde,1.0,2016
+Specialty,4.0,1980
+Specialty,0.0,1981
+Specialty,0.0,1982
+Specialty,3.0,1983
+Specialty,23.0,1984
+Specialty,9.0,1985
+Specialty,12.0,1986
+Specialty,19.0,1987
+Specialty,12.0,1988
+Specialty,19.0,1989
+Specialty,8.0,1990
+Specialty,1.0,1991
+Specialty,4.0,1992
+Specialty,13.0,1993
+Specialty,14.0,1994
+Specialty,35.0,1995
+Specialty,31.0,1996
+Specialty,30.0,1997
+Specialty,12.0,1998
+Specialty,9.0,1999
+Specialty,6.0,2000
+Specialty,3.0,2001
+Specialty,17.0,2002
+Specialty,10.0,2003
+Specialty,13.0,2004
+Specialty,13.0,2005
+Specialty,35.0,2006
+Specialty,20.0,2007
+Specialty,24.0,2008
+Specialty,45.0,2009
+Specialty,48.0,2010
+Specialty,63.0,2011
+Specialty,62.0,2012
+Specialty,36.0,2013
+Specialty,29.0,2014
+Specialty,14.0,2015
+Specialty,2.0,2016
+American Brown,4.0,1980
+American Brown,3.0,1981
+American Brown,1.0,1982
+American Brown,1.0,1983
+American Brown,11.0,1984
+American Brown,7.0,1985
+American Brown,9.0,1986
+American Brown,11.0,1987
+American Brown,17.0,1988
+American Brown,16.0,1989
+American Brown,8.0,1990
+American Brown,3.0,1991
+American Brown,8.0,1992
+American Brown,21.0,1993
+American Brown,30.0,1994
+American Brown,42.0,1995
+American Brown,44.0,1996
+American Brown,36.0,1997
+American Brown,20.0,1998
+American Brown,17.0,1999
+American Brown,6.0,2000
+American Brown,9.0,2001
+American Brown,13.0,2002
+American Brown,6.0,2003
+American Brown,27.0,2004
+American Brown,21.0,2005
+American Brown,29.0,2006
+American Brown,31.0,2007
+American Brown,43.0,2008
+American Brown,50.0,2009
+American Brown,88.0,2010
+American Brown,95.0,2011
+American Brown,125.0,2012
+American Brown,105.0,2013
+American Brown,54.0,2014
+American Brown,41.0,2015
+American Brown,4.0,2016
+American Stout,3.0,1980
+American Stout,2.0,1981
+American Stout,1.0,1982
+American Stout,1.0,1983
+American Stout,7.0,1984
+American Stout,13.0,1985
+American Stout,4.0,1986
+American Stout,7.0,1987
+American Stout,11.0,1988
+American Stout,14.0,1989
+American Stout,7.0,1990
+American Stout,4.0,1991
+American Stout,12.0,1992
+American Stout,15.0,1993
+American Stout,31.0,1994
+American Stout,26.0,1995
+American Stout,50.0,1996
+American Stout,40.0,1997
+American Stout,18.0,1998
+American Stout,13.0,1999
+American Stout,12.0,2000
+American Stout,8.0,2001
+American Stout,12.0,2002
+American Stout,9.0,2003
+American Stout,23.0,2004
+American Stout,24.0,2005
+American Stout,14.0,2006
+American Stout,21.0,2007
+American Stout,21.0,2008
+American Stout,51.0,2009
+American Stout,72.0,2010
+American Stout,106.0,2011
+American Stout,121.0,2012
+American Stout,79.0,2013
+American Stout,56.0,2014
+American Stout,34.0,2015
+American Stout,5.0,2016
+American Imperial Stout,6.0,1980
+American Imperial Stout,0.0,1981
+American Imperial Stout,0.0,1982
+American Imperial Stout,1.0,1983
+American Imperial Stout,7.0,1984
+American Imperial Stout,9.0,1985
+American Imperial Stout,5.0,1986
+American Imperial Stout,5.0,1987
+American Imperial Stout,19.0,1988
+American Imperial Stout,19.0,1989
+American Imperial Stout,3.0,1990
+American Imperial Stout,7.0,1991
+American Imperial Stout,7.0,1992
+American Imperial Stout,15.0,1993
+American Imperial Stout,33.0,1994
+American Imperial Stout,76.0,1995
+American Imperial Stout,88.0,1996
+American Imperial Stout,38.0,1997
+American Imperial Stout,23.0,1998
+American Imperial Stout,12.0,1999
+American Imperial Stout,7.0,2000
+American Imperial Stout,4.0,2001
+American Imperial Stout,21.0,2002
+American Imperial Stout,5.0,2003
+American Imperial Stout,14.0,2004
+American Imperial Stout,14.0,2005
+American Imperial Stout,51.0,2006
+American Imperial Stout,37.0,2007
+American Imperial Stout,108.0,2008
+American Imperial Stout,72.0,2009
+American Imperial Stout,85.0,2010
+American Imperial Stout,87.0,2011
+American Imperial Stout,137.0,2012
+American Imperial Stout,71.0,2013
+American Imperial Stout,40.0,2014
+American Imperial Stout,22.0,2015
+American Imperial Stout,6.0,2016
+Amber,2.0,1980
+Amber,3.0,1981
+Amber,0.0,1982
+Amber,5.0,1983
+Amber,18.0,1984
+Amber,6.0,1985
+Amber,18.0,1986
+Amber,22.0,1987
+Amber,22.0,1988
+Amber,22.0,1989
+Amber,16.0,1990
+Amber,11.0,1991
+Amber,13.0,1992
+Amber,19.0,1993
+Amber,40.0,1994
+Amber,59.0,1995
+Amber,58.0,1996
+Amber,49.0,1997
+Amber,29.0,1998
+Amber,18.0,1999
+Amber,17.0,2000
+Amber,13.0,2001
+Amber,18.0,2002
+Amber,22.0,2003
+Amber,33.0,2004
+Amber,24.0,2005
+Amber,40.0,2006
+Amber,27.0,2007
+Amber,43.0,2008
+Amber,72.0,2009
+Amber,78.0,2010
+Amber,135.0,2011
+Amber,143.0,2012
+Amber,131.0,2013
+Amber,82.0,2014
+Amber,33.0,2015
+Amber,5.0,2016
+Blonde,5.0,1980
+Blonde,3.0,1981
+Blonde,1.0,1982
+Blonde,4.0,1983
+Blonde,6.0,1984
+Blonde,1.0,1985
+Blonde,10.0,1986
+Blonde,4.0,1987
+Blonde,17.0,1988
+Blonde,18.0,1989
+Blonde,11.0,1990
+Blonde,3.0,1991
+Blonde,9.0,1992
+Blonde,15.0,1993
+Blonde,14.0,1994
+Blonde,37.0,1995
+Blonde,31.0,1996
+Blonde,38.0,1997
+Blonde,16.0,1998
+Blonde,11.0,1999
+Blonde,11.0,2000
+Blonde,12.0,2001
+Blonde,7.0,2002
+Blonde,8.0,2003
+Blonde,14.0,2004
+Blonde,20.0,2005
+Blonde,37.0,2006
+Blonde,23.0,2007
+Blonde,49.0,2008
+Blonde,49.0,2009
+Blonde,83.0,2010
+Blonde,109.0,2011
+Blonde,127.0,2012
+Blonde,104.0,2013
+Blonde,84.0,2014
+Blonde,36.0,2015
+Blonde,9.0,2016
+Imperial IPA,6.0,1980
+Imperial IPA,1.0,1981
+Imperial IPA,0.0,1982
+Imperial IPA,5.0,1983
+Imperial IPA,15.0,1984
+Imperial IPA,16.0,1985
+Imperial IPA,12.0,1986
+Imperial IPA,16.0,1987
+Imperial IPA,14.0,1988
+Imperial IPA,26.0,1989
+Imperial IPA,22.0,1990
+Imperial IPA,8.0,1991
+Imperial IPA,9.0,1992
+Imperial IPA,32.0,1993
+Imperial IPA,40.0,1994
+Imperial IPA,75.0,1995
+Imperial IPA,134.0,1996
+Imperial IPA,51.0,1997
+Imperial IPA,37.0,1998
+Imperial IPA,10.0,1999
+Imperial IPA,13.0,2000
+Imperial IPA,15.0,2001
+Imperial IPA,33.0,2002
+Imperial IPA,14.0,2003
+Imperial IPA,29.0,2004
+Imperial IPA,34.0,2005
+Imperial IPA,55.0,2006
+Imperial IPA,46.0,2007
+Imperial IPA,76.0,2008
+Imperial IPA,93.0,2009
+Imperial IPA,194.0,2010
+Imperial IPA,205.0,2011
+Imperial IPA,231.0,2012
+Imperial IPA,176.0,2013
+Imperial IPA,106.0,2014
+Imperial IPA,46.0,2015
+Imperial IPA,14.0,2016
+Saison,6.0,1980
+Saison,0.0,1981
+Saison,0.0,1982
+Saison,1.0,1983
+Saison,11.0,1984
+Saison,4.0,1985
+Saison,7.0,1986
+Saison,6.0,1987
+Saison,22.0,1988
+Saison,31.0,1989
+Saison,6.0,1990
+Saison,3.0,1991
+Saison,1.0,1992
+Saison,15.0,1993
+Saison,43.0,1994
+Saison,49.0,1995
+Saison,52.0,1996
+Saison,33.0,1997
+Saison,24.0,1998
+Saison,11.0,1999
+Saison,4.0,2000
+Saison,6.0,2001
+Saison,18.0,2002
+Saison,5.0,2003
+Saison,41.0,2004
+Saison,23.0,2005
+Saison,36.0,2006
+Saison,27.0,2007
+Saison,61.0,2008
+Saison,70.0,2009
+Saison,180.0,2010
+Saison,243.0,2011
+Saison,221.0,2012
+Saison,210.0,2013
+Saison,121.0,2014
+Saison,68.0,2015
+Saison,11.0,2016
+American Pale,16.0,1980
+American Pale,3.0,1981
+American Pale,1.0,1982
+American Pale,4.0,1983
+American Pale,26.0,1984
+American Pale,19.0,1985
+American Pale,18.0,1986
+American Pale,24.0,1987
+American Pale,35.0,1988
+American Pale,45.0,1989
+American Pale,14.0,1990
+American Pale,15.0,1991
+American Pale,22.0,1992
+American Pale,42.0,1993
+American Pale,68.0,1994
+American Pale,101.0,1995
+American Pale,134.0,1996
+American Pale,93.0,1997
+American Pale,44.0,1998
+American Pale,30.0,1999
+American Pale,18.0,2000
+American Pale,18.0,2001
+American Pale,35.0,2002
+American Pale,18.0,2003
+American Pale,47.0,2004
+American Pale,36.0,2005
+American Pale,71.0,2006
+American Pale,63.0,2007
+American Pale,101.0,2008
+American Pale,107.0,2009
+American Pale,220.0,2010
+American Pale,283.0,2011
+American Pale,317.0,2012
+American Pale,272.0,2013
+American Pale,153.0,2014
+American Pale,83.0,2015
+American Pale,17.0,2016
+American IPA,31.0,1980
+American IPA,4.0,1981
+American IPA,0.0,1982
+American IPA,6.0,1983
+American IPA,53.0,1984
+American IPA,18.0,1985
+American IPA,33.0,1986
+American IPA,45.0,1987
+American IPA,53.0,1988
+American IPA,80.0,1989
+American IPA,23.0,1990
+American IPA,23.0,1991
+American IPA,27.0,1992
+American IPA,62.0,1993
+American IPA,105.0,1994
+American IPA,141.0,1995
+American IPA,211.0,1996
+American IPA,139.0,1997
+American IPA,67.0,1998
+American IPA,38.0,1999
+American IPA,35.0,2000
+American IPA,35.0,2001
+American IPA,65.0,2002
+American IPA,44.0,2003
+American IPA,114.0,2004
+American IPA,71.0,2005
+American IPA,138.0,2006
+American IPA,131.0,2007
+American IPA,192.0,2008
+American IPA,202.0,2009
+American IPA,333.0,2010
+American IPA,454.0,2011
+American IPA,542.0,2012
+American IPA,449.0,2013
+American IPA,270.0,2014
+American IPA,183.0,2015
+American IPA,31.0,2016
