@@ -109,7 +109,7 @@ function loadLiquidFillGauge(elementId, value, config) {
         .attr('transform','translate('+locationX+','+locationY+')');
   
       // Text for title.
-    var text1 = gauge.append("text")
+    var text1 = gaugeGroup.append("text")
         .text(config.title)
         .attr("class", "liquidFillGaugeText")
         .attr("text-anchor", "right")
