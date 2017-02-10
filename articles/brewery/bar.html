@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style> /* set the CSS */
+
+.bar { fill:  #00BFFF; }
+
+</style>
+<body>
+	
+	
+<script src="//d3js.org/d3.v4.min.js"></script>
+<script>
+
+var margin = {top: 20, right: 20, bottom: 30, left: 40},
+    width = 510 - margin.left - margin.right,
+    height = 250 - margin.top - margin.bottom;
+
+////////////////
+  
+var x4 = d3.scaleLinear()
+          .domain([1,20]) //TODO
+          .rangeRound([0, width]);
+var y4 = d3.scaleLinear()
+          .range([height, 0]);
+
+var histogram4 = d3.histogram()
+    .value(function(d) { return d.abv; })//todo
+    .domain(x4.domain());
+
+var svg4 = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", 
+          "translate(" + margin.left + "," + margin.top + ")");
+
+svg4.append("text")
+    .attr("x", width / 2 )
+    .attr("y", 0)
+    .style("text-anchor", "middle")
+    .text("ABV");
+
+d3.csv("data/beer_ibu_style.csv", function(error, data) {
+  if (error) throw error;
+
+  data.forEach(function(d) {
+    d.abv = d.abv;
+  });
+
+  var bins4 = histogram4(data);
+
+  y4.domain([0, d3.max(bins4, function(d) { return d.length; })]);
+
+  svg4.selectAll("rect")
+      .data(bins4)
+    .enter().append("rect")
+      .attr("class", "bar")
+      .attr("x", 1)
+      .attr("transform", function(d) {
+		  return "translate(" + x4(d.x0) + "," + y4(d.length) + ")"; })
+      .attr("width", function(d) { return x4(d.x1) - x4(d.x0) -1 ; })
+      .attr("height", function(d) { return height - y4(d.length); });
+
+  svg4.append("g")
+      .attr("transform", "translate(0," + height + ")")
+      .call(d3.axisBottom(x4));
+
+  svg4.append("g")
+      .call(d3.axisLeft(y4));
+      
+});
+
+//////////////////////////////////////
+
+var x3 = d3.scaleLinear()
+          .domain([1,100]) 
+          .rangeRound([0, width]);
+var y3 = d3.scaleLinear()
+          .range([height, 0]);
+
+var histogram = d3.histogram()
+    .value(function(d) { return d.ibu; })//todo
+    .domain(x3.domain());
+
+var svg3 = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", 
+          "translate(" + margin.left + "," + margin.top + ")");
+
+svg3.append("text")
+    .attr("x", width / 2 )
+    .attr("y", 0)
+    .style("text-anchor", "middle")
+    .text("IBU");
+
+d3.csv("data/beer_ibu_style.csv", function(error, data) {
+  if (error) throw error;
+
+  data.forEach(function(d) {
+    d.ibu = d.ibu;
+  });
+
+  var bins = histogram(data);
+
+  y3.domain([0, d3.max(bins, function(d) { return d.length; })]);
+
+  svg3.selectAll("rect")
+      .data(bins)
+    .enter().append("rect")
+      .attr("class", "bar")
+      .attr("x", 1)
+      .attr("transform", function(d) {
+		  return "translate(" + x3(d.x0) + "," + y3(d.length) + ")"; })
+      .attr("width", function(d) { return x3(d.x1) - x3(d.x0) -1 ; })
+      .attr("height", function(d) { return height - y3(d.length); });
+
+  svg3.append("g")
+      .attr("transform", "translate(0," + height + ")")
+      .call(d3.axisBottom(x3));
+
+  svg3.append("g")
+      .call(d3.axisLeft(y3));
+
+});
+
+
+//////////////////////////////////////
+
+
+var x = d3.scaleBand()
+          .range([0, width])
+          .padding(0.1);
+var y = d3.scaleLinear()
+          .range([height, 0]);
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", 
+          "translate(" + margin.left + "," + margin.top + ")");
+svg.append("text")
+    .attr("x", width / 2 )
+    .attr("y", 0)
+    .style("text-anchor", "middle")
+    .text("Glassware");
+
+d3.csv("data/sales.csv", function(error, data) {
+  if (error) throw error;
+
+  data.forEach(function(d) {
+    d.sales = +d.sales;
+  });
+
+  x.domain(data.map(function(d) { return d.salesperson; }));
+  y.domain([0, d3.max(data, function(d) { return d.sales; })]);
+
+  svg.selectAll(".bar")
+      .data(data)
+    .enter().append("rect")
+      .attr("class", "bar")
+      .attr("x", function(d) { return x(d.salesperson); })
+      .attr("width", x.bandwidth())
+      .attr("y", function(d) { return y(d.sales); })
+      .attr("height", function(d) { return height - y(d.sales); });
+
+  svg.append("g")
+      .attr("transform", "translate(0," + height + ")")
+      .call(d3.axisBottom(x));
+
+  svg.append("g")
+      .call(d3.axisLeft(y));
+
+});
+
+var svg2 = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", 
+          "translate(" + margin.left + "," + margin.top + ")");
+
+svg2.append("text")
+    .attr("x", width / 2 )
+    .attr("y", 0)
+    .style("text-anchor", "middle")
+    .text("Temperature");
+
+d3.csv("data/temp.csv", function(error, data) {
+  if (error) throw error;
+
+  data.forEach(function(d) {
+    d.count = +d.count;
+  });
+
+  x.domain(data.map(function(d) { return d.temp; }));
+  y.domain([0, d3.max(data, function(d) { return d.count; })]);
+
+  svg2.selectAll(".bar")
+      .data(data)
+    .enter().append("rect")
+      .attr("class", "bar")
+      .attr("x", function(d) { return x(d.temp); })
+      .attr("width", x.bandwidth())
+      .attr("y", function(d) { return y(d.count); })
+      .attr("height", function(d) { return height - y(d.count); });
+
+  svg2.append("g")
+      .attr("transform", "translate(0," + height + ")")
+      .call(d3.axisBottom(x));
+
+  svg2.append("g")
+      .call(d3.axisLeft(y));
+
+});
+
+  
+</script>
+</body>

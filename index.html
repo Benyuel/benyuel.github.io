@@ -1,102 +1,203 @@
-<!DOCTYPE html>
+ <!-- FlatFy Theme - Andrea Galanti /-->
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
 <head>
-  <meta charset="utf-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.css" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.js"></script>
-  <script src="https://unpkg.com/leaflet.markercluster@1.0.3/dist/leaflet.markercluster-src.js"> </script>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.css" />
-  <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-  <style>
-    body { margin:0;position:fixed;top:0;right:0;bottom:0;left:0; }
-    #map {
-      height: 100%;
-    }
-  </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+    <title></title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+ 
+    <!-- Custom Google Web Font -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+	
+    <!-- Custom CSS-->
+    <link href="css/general.css" rel="stylesheet">
+	
+	 <!-- Owl-Carousel -->
+    <link href="css/custom.css" rel="stylesheet">
+	<link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+	
+	<!-- Magnific Popup core CSS file -->
+	<link rel="stylesheet" href="css/magnific-popup.css"> 
+	
+	<script src="js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
+	<!--[if IE 9]>
+		<script src="js/PIE_IE9.js"></script>
+	<![endif]-->
+	<!--[if lt IE 9]>
+		<script src="js/PIE_IE678.js"></script>
+	<![endif]-->
+
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+	<![endif]-->
 
 </head>
 
-<body>
-  <div id="map"></div>
-  <script>
-    var map = L.map('map').setView([38.8929, -77.0252], 9);
-    var tileLayer = L.tileLayer('https://{s}.tiles.mapbox.com/v4/{mapId}/{z}/{x}/{y}.png?access_token={token}', {
-        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-        subdomains: ['a','b','c','d'],
-        mapId: 'benyuel.fbd27dd2',
-        token: 'pk.eyJ1IjoiYmVueXVlbCIsImEiOiJjaXl0enhtbWcwMDFyMnFwY3dhYjU1b2J2In0.kyG16VGdncJJBN33MsJ4mg'
-    });
-    tileLayer.addTo(map);
-    
-        //add image for each n in the cluster...bucketed
-    var clusterIconSize = 50;
-    var r = 5;
-    var markers = new L.MarkerClusterGroup({ 
-        iconCreateFunction: function (cluster) {
-            var childCount = cluster.getChildCount();
-            var additive = Math.round(childCount / r / 10);
-            var s = clusterIconSize + additive;
-            var html = '<div style="width:100%;margin-top: 10px;width:' + s * 2/3 + 'px;height:' + s + 'px;" id="imgs1" class="fluid">' +
-                   '<div style="margin-top:10px;float:left;width:' + s * 2/3 + 'px;height:' + s + 'px;" class="fluid img1"><img src="https://cloud.githubusercontent.com/assets/5361725/22738769/c989cf08-edd6-11e6-8279-2626d7462e35.png" alt="" width="' + s * 2/3 + '" height="' + s + '">' +
-                   '<p style="font-size:' + Math.round(s/50).toString() + '%;color:#FFEC8B;text-shadow: 1px 1px 0px b2222f94;text-align:center;font-size:22px;margin-top:-167%;">' + childCount.toString() + '</p></div>'
-            return new L.DivIcon({ html: html, iconSize: new L.Point(0, 0) });
-       },
-       removeOutsideVisibleBounds: true,
-       chunkedLoading: true,
-       maxClusterRadius: 200
-    });
-    var myIcon = L.icon({
-            // iconUrl:'https://d30y9cdsu7xlg0.cloudfront.net/png/74412-200.png', 
-            iconUrl: 'https://cloud.githubusercontent.com/assets/5361725/22738769/c989cf08-edd6-11e6-8279-2626d7462e35.png',
-            iconSize: [40 * 2/3,40]
-                 });
-    var url = "brewery/locations.geojson";
-    d3.json(url, function(err, geojson) {
-      L.geoJson(geojson, {
-        pointToLayer: function (feature, latlng) {
-          // markers.addLayers([L.marker(latlng,{icon: myIcon})]);
-          // return new L.marker(latlng,{icon: myIcon});//.bindPopup(feature.properties.name);
-            var s = 40
-            if (feature.properties && feature.properties.name) {
-              var name = feature.properties.name;
-              } 
-            html = '<div style="width:100%;margin-top: 10px;width:' + s * 2/3 + 'px;height:' + s + 'px;" id="imgs1" class="fluid">' +
-                   '<div style="margin-top:10px;float:left;width:' + s * 2/3 + 'px;height:' + s + 'px;" class="fluid img1"><img src="https://cloud.githubusercontent.com/assets/5361725/22738769/c989cf08-edd6-11e6-8279-2626d7462e35.png" alt="" width="' + s * 2/3 + '" height="' + s + '">' +
-                   '<p style="font-size:' + Math.round(s/50).toString() + '%;color:#B22222;text-shadow: 1px 1px 0px b2222f94;text-align:center;font-size:10px;margin-top:0%;">' + name + '</p></div>'
-            var divIcon = new L.DivIcon({ html: html, iconSize: new L.Point(0,0) });
-            markers.addLayers([L.marker(latlng,{icon:divIcon})]);
-            return new L.marker(latlng,{icon:divIcon})
-        }, onEachFeature: onEachFeature
-      })//.addTo(map);
-    });
-    
-    map.addLayer(markers);
-    
-    var shownLayer, polygon;
-    function removePolygon() {
-          if (shownLayer) {
-            shownLayer.setOpacity(1);
-            shownLayer = null;
-          }
-          if (polygon) {
-            map.removeLayer(polygon);
-            polygon = null;
-          }
-        };
-    markers.on('clustermouseover', function (a) {
-        removePolygon();
-        a.layer.setOpacity(0.2);
-        shownLayer = a.layer;
-        polygon = L.polygon(a.layer.getConvexHull());
-        map.addLayer(polygon);
-        });
-    markers.on('clustermouseout', removePolygon);
-    map.on('zoomend', removePolygon);
-    
-    function onEachFeature(feature, layer) {
-      if (feature.properties && feature.properties.name) {
-        popupContent = feature.properties.name;
-      }
-      // layer.bindPopup(popupContent);
-    }
-  </script>
+<body id="home">
+
+	<!-- Preloader -->
+	<div id="preloader">
+		<div id="status"></div>
+	</div>
+	
+	<!-- FullScreen -->
+    <div class="intro-header">
+		<div class="col-xs-12 text-center abcen1">
+			<h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">A World of Data</h1>
+			<h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">Data Visualization, Engineering, and Machine Learning</h3>
+		</div>    
+        <!-- /.container -->
+		<div class="col-xs-12 text-center abcen wow fadeIn">
+			<div class="button_down "> 
+				<a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#whatis"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
+			</div>
+		</div>
+    </div>
+	
+	<!-- NavBar-->
+	<nav class="navbar-default" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#home"> </a>
+			</div>
+
+			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					
+					<li class="menuItem"><a href="#whatis">What is?</a></li>
+					<li class="menuItem"><a href="#content">Content</a></li>
+					<li class="menuItem"><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		   
+		</div>
+	</nav> 
+	
+	<!-- What is -->
+	<div id="whatis" class="content-section-b" style="border-top: 0">
+		<div class="container">
+
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h2>What is?</h2>
+				<p class="lead" style="margin-top:0">Articles & Content Dedicated to Data</p>
+				
+			</div>
+		</div>
+	</div>
+
+	
+	<!-- Use it -->
+    <div id ="content" class="content-section-a">
+
+        <div class="container">
+			
+            <div class="row">
+			
+				<div class="col-sm-6 pull-right wow fadeInRightBig">
+                    <img class="img-responsive " src="articles/brewery/cask.png" alt="">
+                </div>
+				
+                <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">   
+                    <h3 class="section-heading">The Current State of the Brewing Industry</h3>
+					<div class="sub-title lead3">Data Mining & Visualizing Craft Beer</div>
+                    <p class="lead">
+						In this article, I show the rise of the Craft Brewery and the IPA.
+					</p>
+
+					 <p><a class="btn btn-embossed btn-primary" href="breweries.html" role="button">View Details</a> 
+				</div>   
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+
+
+	<div id="contact" class="content-section-a">
+		<div class="container">
+			<div class="row">
+			
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h2>Contact</h2>
+				<a href="https://github.com/Benyuel/benyuel.github.io/issues" style="margin-top:0">Submit a question, comment, or discuss here</a>
+			</div>
+			
+
+			
+			<hr class="featurette-divider hidden-lg">
+
+		</div>
+	</div>
+	
+	
+	
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+			
+			<!-- LICENSE -->
+			<a rel="cc:attributionURL" href="http://www.andreagalanti.it/flatfy"
+		   property="dc:title">Flatfy Theme </a> by
+		   <a rel="dc:creator" href="http://www.andreagalanti.it"
+		   property="cc:attributionName">Andrea Galanti</a>
+		   is licensed to the public under 
+		   <BR>the <a rel="license"
+		   href="http://creativecommons.org/licenses/by-nc/3.0/it/deed.it">Creative
+		   Commons Attribution 3.0 License - NOT COMMERCIAL</a>.
+		   
+	   
+          </div> <!-- /col-xs-7 -->
+
+          
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/script.js"></script>
+	<!-- StikyMenu -->
+	<script src="js/stickUp.min.js"></script>
+	<script type="text/javascript">
+	  jQuery(function($) {
+		$(document).ready( function() {
+		  $('.navbar-default').stickUp();
+		  
+		});
+	  });
+	
+	</script>
+	<!-- Smoothscroll -->
+	<script type="text/javascript" src="js/jquery.corner.js"></script> 
+	<script src="js/wow.min.js"></script>
+	<script>
+	 new WOW().init();
+	</script>
+	<script src="js/classie.js"></script>
+	<script src="js/uiMorphingButton_inflow.js"></script>
+	<!-- Magnific Popup core JS file -->
+	<script src="js/jquery.magnific-popup.js"></script> 
 </body>
+
+</html>
