@@ -51,7 +51,7 @@ d3.csv("data/flare.csv", function(d) {
   var ci = node.append("circle")
       .attr("id", function(d) { return d.id; })
       .attr("r", function(d) { return d.r; })
-      .style("fill","#AA7D39");
+      .style("fill","#66350d");
 //       .style("fill", function(d){ return color(d.package); });
 
   node.append("clipPath")
@@ -66,7 +66,8 @@ d3.csv("data/flare.csv", function(d) {
       .enter().append("tspan")
       .attr("x", 0)
       .attr("y", function(d, i, nodes) { return 13 + (i - nodes.length / 2 - 0.5) * 10; })
-      .text(function(d) { return d; });
+      .text(function(d) { return d; })
+      .attr("fill", "white");
 
   node.append("title")
       .text(function(d) { return d.id + "\n" + format(d.value); });
