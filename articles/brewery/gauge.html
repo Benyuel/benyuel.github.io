@@ -10,29 +10,29 @@
     </style>
 </head>
 <body>
-<svg id="fillgauge1" width="30%" height="80%"></svg>
-<svg id="fillgauge2" width="30%" height="80%"></svg>
-<svg id="fillgauge4" width="30%" height="80%"></svg>
+<svg id="fillgauge1" width="30%" height="400"></svg>
+<svg id="fillgauge2" width="30%" height="400"></svg>
+<svg id="fillgauge4" width="30%" height="400"></svg>
 <script language="JavaScript">
     var config1 = liquidFillGaugeDefaultSettings();
     config1.title = 'IPAs or Pale Ales';
-    // config1.circleColor = "#D4AB6A";
-    // config1.textColor = "#553300";
-    // config1.waveTextColor = "#805615";
-    // config1.waveColor = "#AA7D39";
+    config1.circleColor = "#66350d";
+    config1.textColor = "#66350d";
+    config1.waveTextColor = "#66350d";
+    config1.waveColor = "#AA7D39";
     config1.circleThickness = 0.2;
-    config1.textVertPosition = 0.2;
+    config1.textVertPosition = 0.3;
     config1.waveAnimateTime = 1000;
     var gauge1= loadLiquidFillGauge("fillgauge1", 25, config1);
   
     var config2 = liquidFillGaugeDefaultSettings();
     config2.title = 'Beers > 30 IBU';
-    // config2.circleColor = "#D4AB6A";
-    // config2.textColor = "#553300";
-    // config2.waveTextColor = "#805615";
-    // config2.waveColor = "#AA7D39";
+    config1.circleColor = "#66350d";
+    config1.textColor = "#66350d";
+    config1.waveTextColor = "#66350d";
+    config1.waveColor = "#AA7D39";
     config2.circleThickness = 0.2;
-    config2.textVertPosition = 0.2;
+    config2.textVertPosition = 0.72;
     config2.waveAnimateTime = 1000;
     var gauge2= loadLiquidFillGauge("fillgauge2", 54, config2);  
   
@@ -52,13 +52,13 @@
     
     var config4 = liquidFillGaugeDefaultSettings();
     config4.title = "Organic";
-    // config4.circleColor = "#D4AB6A";
-    // config4.textColor = "#553300";
-    // config4.waveTextColor = "#805615";
-    // config4.waveColor = "#AA7D39";
-    config4.circleThickness = 0.1;
+    config1.circleColor = "#66350d";
+    config1.textColor = "#66350d";
+    config1.waveTextColor = "#66350d";
+    config1.waveColor = "#AA7D39";
+    config4.circleThickness = 0.2;
     config4.circleFillGap = 0.2;
-    config4.textVertPosition = 0.8;
+    config4.textVertPosition = 0.1;
     config4.waveAnimateTime = 2000;
     config4.waveHeight = 0.3;
     config4.waveCount = 1;
