@@ -1,11 +1,4 @@
-/*!
- * @license Open source under BSD 2-clause (http://choosealicense.com/licenses/bsd-2-clause/)
- * Copyright (c) 2015, Curtis Bratton
- * All rights reserved.
- *
- * Liquid Fill Gauge v1.1
- */
-function liquidFillGaugeDefaultSettings(){
+   function liquidFillGaugeDefaultSettings(){
     return {
         minValue: 0, // The gauge minimum value.
         maxValue: 100, // The gauge maximum value.
@@ -109,7 +102,7 @@ function loadLiquidFillGauge(elementId, value, config) {
         .attr('transform','translate('+locationX+','+locationY+')');
   
       // Text for title.
-    var text1 = gaugeGroup.append("svg").append("text")
+    gaugeGroup.append("text")
         .text(config.title)
         .attr("class", "liquidFillGaugeText")
         .attr("text-anchor", "right")
