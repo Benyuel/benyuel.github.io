@@ -3,7 +3,7 @@
 <style>
 
 text {
-  font: 10px sans-serif;
+  font: 8px sans-serif;
   text-anchor: middle;
 }
 
@@ -51,8 +51,8 @@ d3.csv("data/flare.csv", function(d) {
   var ci = node.append("circle")
       .attr("id", function(d) { return d.id; })
       .attr("r", function(d) { return d.r; })
-      // .style("fill","D4AB6A");
-      .style("fill", function(d){ return color(d.package); });
+      .style("fill","#b74331");
+//       .style("fill", function(d){ return color(d.package); });
 
   node.append("clipPath")
       .attr("id", function(d) { return "clip-" + d.id; })
