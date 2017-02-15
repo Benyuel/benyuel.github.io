@@ -14,3 +14,4 @@ brewery/beer_breweries.csv
 brewery/beer.py
 
 brewery/woodcut/*
+articles/brewery/data/beer.py
