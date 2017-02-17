@@ -29,3 +29,13 @@ articles/brewery/data/untappd_collaboration_search_results.txt
 articles/brewery/data/untappd_collaboration_search.html
 
 articles/brewery/data/untappd.py
+
+articles/brewery/data/__pycache__/degreesOfSeparation.cpython-34.pyc
+
+articles/brewery/data/adjmatrix_random_V.out
+
+articles/brewery/data/degree_distribution_V_m.png
+
+articles/brewery/data/degreesOfSeparation.py
+
+articles/brewery/data/graph_layout_V_m.png
