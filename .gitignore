@@ -15,3 +15,17 @@ brewery/beer.py
 
 brewery/woodcut/*
 articles/brewery/data/beer.py
+
+articles/brewery/data/brewerydb.py
+
+articles/brewery/data/collaboration_beers.csv
+
+articles/brewery/data/collaborations_group.txt
+
+articles/brewery/data/raw_result.txt
+
+articles/brewery/data/untappd_collaboration_search_results.txt
+
+articles/brewery/data/untappd_collaboration_search.html
+
+articles/brewery/data/untappd.py
