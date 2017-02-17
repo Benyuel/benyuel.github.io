@@ -45,7 +45,7 @@ d3.json("data/collaborations_by_size.json", function(error, graph) {
     .selectAll("circle")
     .data(graph.nodes)
     .enter().append("circle")
-      .attr("r", function(d) { return d.size; })
+      .attr("r", function(d) { return d.size * 2; })
       .attr("fill", function(d) { return color(d.group); })
       .call(d3.drag()
           .on("start", dragstarted)
