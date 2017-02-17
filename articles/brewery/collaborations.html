@@ -10,6 +10,7 @@ var canvas = document.querySelector("canvas"),
     height = canvas.height,
     searchRadius = 40;
 
+
 // var zoom = d3.zoom()
 //             .scaleExtent([1, 10])
 //             .on("zoom", zoomed);
@@ -81,7 +82,7 @@ d3.json("data/collaborations.json", function(error, graph) {
   function mousemoved() {
     var a = this.parentNode, m = d3.mouse(this), d = simulation.find(m[0] - width / 2, m[1] - height / 2, searchRadius);
     if (!d) return a.removeAttribute("href"), a.removeAttribute("title");
-    a.setAttribute("href", "http://bl.ocks.org/" + (d.user ? d.user + "/" : "") + d.id);
+    a.setAttribute("href", " " + (d.user ? d.user + " " : " ") + d.id);
     a.setAttribute("title", d.id + (d.user ? " by " + d.user : "") + (d.description ? "\n" + d.description : ""));
   }
 });
